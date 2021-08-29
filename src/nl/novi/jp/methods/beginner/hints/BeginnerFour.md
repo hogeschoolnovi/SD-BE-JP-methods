@@ -1,4 +1,5 @@
-# Beginner Three
+# Beginner Four
 
-1. Er wordt een methode aangeroepen met de naam `driveRight()`, maar deze bestaat niet. Maak deze methode.
-2. Voeg in de body van de methode (tussen de `{}`) de code toe om de tekst uit te printen.
+1. Maak een methode met de naam `jump`
+2. Zorg ervoor dat je de methode maakt na de sluit accolade van de `main` methode
+3. Vergeet niet de `jump()`-methode aan te roepen vanuit de `main` methode

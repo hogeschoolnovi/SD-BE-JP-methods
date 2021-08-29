@@ -1,4 +1,4 @@
-package nl.novi.jp.methods.a;
+package nl.novi.jp.methods.junior;
 
 public class One {
 
