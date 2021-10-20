@@ -10,4 +10,14 @@ package nl.novi.jp.methods.junior;
  */
 
 public class JuniorFive {
+    public static void main(String[] args) {
+        capitalizeWord("sjaak");
+        capitalizeWord("patat");
+        capitalizeWord("ajax");
+        capitalizeWord("kampioen");
+    }
+
+    public static void capitalizeWord(String word) {
+        System.out.println(word.toUpperCase());
+    }
 }

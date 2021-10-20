@@ -7,6 +7,10 @@ package nl.novi.jp.methods.beginner;
  */
 public class BeginnerFour {
     public static void main(String[] args) {
+        jump();
+    }
 
+    private static void jump() {
+        System.out.println("You jumped");
     }
 }

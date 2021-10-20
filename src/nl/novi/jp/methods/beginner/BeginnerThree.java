@@ -12,10 +12,14 @@ package nl.novi.jp.methods.beginner;
  */
 public class BeginnerThree {
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         driveLeft();
         driveRight();
-    }*/
+    }
+
+    private static void driveRight() {
+        System.out.println("The car turns right");
+    }
 
     public static void driveLeft() {
         System.out.println("The car turns left");

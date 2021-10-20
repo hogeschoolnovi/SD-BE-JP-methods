@@ -25,6 +25,9 @@ public class MediorFour {
     public static void main(String[] args) {
 
         List<Integer> result = numberStringToArrayList("123123145");
+        List<String> resultWords = numberListToStringList(result);
+
+        printNumbers(resultWords);
 
     }
 
@@ -37,9 +40,12 @@ public class MediorFour {
         return numberList;
     }
 
-    //TODO: Maak deze methode af.
     public static List<String> numberListToStringList(List<Integer> numbers) {
         List<String> wordNumbers = new ArrayList<>();
+
+        for(int number : numbers)  {
+            wordNumbers.add(numberToWord(number));
+        }
 
         return wordNumbers;
     }
@@ -71,9 +77,19 @@ public class MediorFour {
         }
     }
 
-    //TODO Maak deze methode af.
-    public static void printNumbers() {
+    public static void printNumbers(List<String> numberWords) {
+        int arraySize = numberWords.size();
+        String finalString = "";
 
+        for (int i = 0; i < numberWords.size(); i++) {
+            finalString = finalString + numberWords.get(i);
+
+            // Only add an hyphen when it is not the last one!
+            if(i + 1 != arraySize) {
+                finalString = finalString + "-";
+            }
+        }
+        System.out.println(finalString);
     }
 
 }

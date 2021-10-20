@@ -25,12 +25,17 @@ public class SeniorTwo {
         englishDutchWords.put("cup","beker");
         englishDutchWords.put("screen","scherm");
 
-        translate(englishDutchWords, "cup");
+        System.out.println(translate(englishDutchWords, "cup"));
+        System.out.println(translate(englishDutchWords, "DO NOT EXIST"));
     }
 
+    // Je wilt eerst checken of de KEY aanwezig is, daarna return je daarbij horende value!
     public static String translate(Map<String, String> words, String word) {
 
-        return "";
+        if(words.containsKey(word)) {
+            return words.get(word);
+        }
+        return "404: NOT FOUND";
     }
 
 }

@@ -16,6 +16,6 @@ public class BeginnerOne {
     }
 
     public static void goodbye() {
-
+        System.out.println("Goedeavond Nederland");
     }
 }
