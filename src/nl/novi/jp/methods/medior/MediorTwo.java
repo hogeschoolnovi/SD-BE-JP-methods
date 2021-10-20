@@ -12,7 +12,7 @@ public class MediorTwo {
 
     }
 
-    public boolean isOldEnough(int age) {
+    public  static boolean isOldEnough(int age) {
         if(age > 17) {
             return true;
         } else {
@@ -24,7 +24,7 @@ public class MediorTwo {
         System.out.println("You are not old enough for this activity!");
     }
 
-    public void printProceed() {
+    public static void printProceed() {
         System.out.println("No warning!");
     }
 }

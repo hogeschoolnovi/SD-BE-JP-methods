@@ -13,7 +13,6 @@ public class JuniorOne {
     public static void main(String[] args) {
         greetName("Nova");
         sayGoodbyeToName("Henk");
-	// write your code here
     }
 
     public static void greetName(String name) {
@@ -21,6 +20,6 @@ public class JuniorOne {
     }
 
     public static void sayGoodbyeToName(String name) {
-
+        // write your code here
     }
 }
