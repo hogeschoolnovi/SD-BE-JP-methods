@@ -5,9 +5,9 @@ import java.util.List;
 
 /**
  * Uitdagend!
- * Gegeven een methode die string per character in een List stopt (numberStringToArrayList).
- * Gegeven een methode die een getal ontvangt en deze vertaalt naar een String (numberListToStringList).
- * Gegeven twee methodes die afgemaakt moeten worden door jou!
+ * Gegeven: Een methode die string per character in een List stopt (numberStringToArrayList).
+ * Gegeven: Een methode die een getal ontvangt en deze vertaalt naar een String (numberListToStringList).
+ * Gegeven: Twee methodes die afgemaakt moeten worden door jou!
  *
  * Deze applicatie heeft als doel om een string van nummer in zijn geheel uit te schrijven:
  * "123" wordt "one-two-three"

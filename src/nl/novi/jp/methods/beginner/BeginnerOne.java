@@ -2,7 +2,7 @@ package nl.novi.jp.methods.beginner;
 
 /**
  * Deze klasse bevat al de methode met de naam hello(). Deze methode print "Goedemorgen Nederland" uit. De methode
- * goodbye() is ook al toegevoegd, maar deze doet nog niets. Zorg ervoor "Goedeavond Nederland" uitprint.
+ * goodbye() is ook al toegevoegd, maar deze doet nog niets. Zorg ervoor "Goedenavond Nederland" uitprint.
  */
 public class BeginnerOne {
 
