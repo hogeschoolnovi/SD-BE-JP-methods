@@ -13,15 +13,15 @@ erbij. De antwoorden staan in de antwoordenbranch.
 In deze opdrachten maken we onderscheid tussen returnen en uitprinten. Wanneer je de opdracht om een return bevat, dient
 de methode het `return` keyword te bevatten. Wanneer er printen staat, kun je `System.out.println("")` gebruiken.
 
-## Beginner Opdrachten
+## Beginner opdrachten
 De beginner opdrachten focussen zich op het aanmaken en het aanroepen van methodes. Deze methodes returnen nog niets en
 hebben geen _input parameters_.
 
 ## Junior opdrachten
-De Junior opdrachten focussen zich op het werken met _input parameters_.  
+De junior opdrachten focussen zich op het werken met _input parameters_.  
 
 ## Medior opdrachten 
-In de medior gaan we werken met return-parameters
+De medior opdrachten introduceren het werken met return-parameters.
 
 ## Senior opdrachten
 De senior opdrachten zijn de uitdagende opdrachten. Hier worden dingen gebruikt die niet per se in de lessen gebruikt

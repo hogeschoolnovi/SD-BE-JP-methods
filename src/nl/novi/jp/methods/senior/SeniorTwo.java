@@ -6,7 +6,7 @@ import java.util.HashMap;
 /**
  * Lees eerst wat een Map is: https://www.w3schools.com/java/java_hashmap.asp
  *
- * Maak de methode af. Deze moet het nederlandse woord teruggegevn van het engelse woord.
+ * Maak de methode af. Deze moet het Nederlandse woord teruggeven van het Engelse woord.
  * Verzin iets wanneer het Engelse woord niet beschikbaar is.
  */
 public class SeniorTwo {

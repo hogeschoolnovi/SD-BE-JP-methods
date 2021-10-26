@@ -5,15 +5,15 @@ import java.util.List;
 
 /**
  * Uitdagend!
- * Gegeven een methode die string per character in een List stopt (numberStringToArrayList).
- * Gegeven een methode die een getal ontvangt en deze vertaalt naar een String (numberListToStringList).
- * Gegeven twee methodes die afgemaakt moeten worden door jou!
+ * Gegeven: Een methode die string per character in een List stopt (numberStringToArrayList).
+ * Gegeven: Een methode die een getal ontvangt en deze vertaalt naar een String (numberListToStringList).
+ * Gegeven: Twee methodes die afgemaakt moeten worden door jou!
  *
  * Deze applicatie heeft als doel om een string van nummer in zijn geheel uit te schrijven:
  * "123" wordt "one-two-three"
  *
- *  Twee methodes zijn al gegeven, twee moet je zelf maken en je dient ze vervolgens in de juiste volgorde aan te roepen
- *  vanuit de main-methode.
+ * Twee methodes zijn al gegeven, twee moet je zelf maken en je dient ze vervolgens in de juiste volgorde aan te roepen
+ * vanuit de main-methode.
  * Pas numberListToStringList() zo aan dat de getallen uit de list worden omgezet naar text en worden toegevoegd aan:
  * wordNumbers
  *

@@ -1,7 +1,7 @@
 package nl.novi.jp.methods.medior;
 
 /**
- * Gegeven een methode die true of false (boolean) teruggeeft op basis van de gegeven leeftijd.
+ * Gegeven: Een methode die true of false (boolean) teruggeeft op basis van de gegeven leeftijd.
  *
  * Roep deze methode (is oldEnough) vanuit de main-methode aan. Op basis van de return value, roep je
  * of printUnderAgeWarning() of printProceed() uit.
