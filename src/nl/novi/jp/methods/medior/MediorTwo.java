@@ -9,7 +9,10 @@ package nl.novi.jp.methods.medior;
 public class MediorTwo {
 
     public static void main(String[] args) {
-        if(isOldEnough(12) == true) {
+        // De parameter van een if-statement heeft een boolean nodig. De return waarde van de isOldEnough-methode is een boolean.
+        // We kunnen daarom direct de isOldEnough-methode gebruiken als argument van het if-statement.
+        // Probeer hier zelf de "edge cases" te bepalen (en in te vullen) en kijk wat er gebeurt.
+        if(isOldEnough(18)) {
             printProceed();
         } else {
             printUnderAgeWarning();

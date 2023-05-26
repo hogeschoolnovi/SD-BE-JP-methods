@@ -12,6 +12,8 @@ package nl.novi.jp.methods.beginner;
 public class BeginnerTwo {
     public static void main(String[] args) {
         printFact();
+        // Hieronder roep je de methode "printAnotherFact" aan.
+        // Vergeet niet de haakjes () erachter te zetten, want dat hoort bij een methode aanroep.
         printAnotherFact();
     }
 

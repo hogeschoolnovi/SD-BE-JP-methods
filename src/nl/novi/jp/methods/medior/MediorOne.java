@@ -36,6 +36,12 @@ public class MediorOne {
         return number * 2;
     }
 
+    // De squareNumber-methode:
+    // private static = de "acces modifier" waarmee je de beschikbaarheid van de methode reguleert. Dit komt later in de cursus nog aan bod. Je mag hier ook "public static" invullen.
+    // int = de return waarde van de methode. We gebruiken hier "int", waarmee we aangeven dat we in deze methode het "return" keyword MOETEN gebruiken om een int te returnen.
+    // squareNumber = de naam van de methode. Deze is betekenisvol, kort en beschrijft wat de methode doet.
+    // (int number) = de paramter. We hebben hier 1 parameter genaamd "number" van type int.
+    // {return number * number;} = de body. Hier gebruiken we de parameter (number) en vermenigvuldigen die met zichzelf. Vervolgens returnen we die (int) uitkomst m.b.v het "return" keyword.
     public static int squareNumber(int number) {
         return number * number;
     }

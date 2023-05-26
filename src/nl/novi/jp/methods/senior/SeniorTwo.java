@@ -29,9 +29,12 @@ public class SeniorTwo {
         System.out.println(translate(englishDutchWords, "DO NOT EXIST"));
     }
 
-    // Je wilt eerst checken of de KEY aanwezig is, daarna return je daarbij horende value!
+
     public static String translate(Map<String, String> words, String word) {
 
+        // Met dit if-statement check je of het gegevens woord wel in de woordenlijst staat,
+        // zo ja, dan return je "value" die hoort bij de "key" van de gegeven Map, (map.get("bottle") returned bijvoorbeeld "fles". "bottle" is de key, "fles" is de value. Een Map bestaat uit key-value pairs)
+        // zo niet, dan return je de Strig "404: NOT FOUND"
         if(words.containsKey(word)) {
             return words.get(word);
         }

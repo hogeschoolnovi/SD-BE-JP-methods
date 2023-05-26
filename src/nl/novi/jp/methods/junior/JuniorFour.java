@@ -19,10 +19,22 @@ public class JuniorFour {
         doTransaction(123, 3445);
     }
 
+    // We hebben deze methode 2 parameters gegeven.
+    // In de main-methode wordt deze methode namelijk aangeroepen met 2 argumenten.
+    // Daarbij wordt deze methode aangeroepen met nummers als argument,
+    // vadaar dat we er hier voor gekozen hebben om de parameters van type int te maken.
+    // De namen van de twee parameters zijn afgeleid van de "deposit" en "withdraw" methodes.
     public static void doTransaction(int currentBalance, int amount) {
         if(amount > 0) {
+            // let er hier op dat je deposit (en ook withdraw) aanroept met parameter namen van "doTransaction"
+            // Aangezien we alleen op deze if-branch komen als amount > 0 is,
+            // betekend dit dat de waarden van (currentBalance, amount) overeen komen met de tweede call van "doTransaction" in de main-methode,
+            // ofwel (currentBalance=123, amount=3445)
             deposit(currentBalance, amount);
         } else {
+            // In de else-branch komen we alleen als amount < 0 is,
+            // dus hier hebben we de eerste call van "doTransaction" in main.
+            // Ofwel, (currentBalance=1000, amount=-200)
             withdraw(currentBalance, amount);
         }
     }

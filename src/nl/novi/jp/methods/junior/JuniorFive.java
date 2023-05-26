@@ -11,13 +11,18 @@ package nl.novi.jp.methods.junior;
 
 public class JuniorFive {
     public static void main(String[] args) {
+        // Hier roepen we onze zelfgemaakte capitalizeWord-methode een aantal keer aan met verschillende String waardes.
         capitalizeWord("sjaak");
         capitalizeWord("patat");
         capitalizeWord("ajax");
         capitalizeWord("kampioen");
     }
 
+    // We hebben hier een methode gemaakt met een betekenisvolle naam die meteen duidelijk maakt wat de methode doet.
     public static void capitalizeWord(String word) {
-        System.out.println(word.toUpperCase());
+        // We gebruiken hier de "toUpperCase" methode van String om het woord uit de parameter in hoofdletters te zetten
+        // vervolgens printen we het resultaat naar de console.
+        String result = word.toUpperCase();
+        System.out.println(result);
     }
 }

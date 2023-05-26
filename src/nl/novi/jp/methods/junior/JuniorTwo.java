@@ -20,8 +20,19 @@ public class JuniorTwo {
         System.out.println("Het getal " + number + " is verdubbeld: " + doubledNumber);
     }
 
+    // Deze methode krijgt een parameter van type int
     public static void squareTheNumber(int number) {
+        // We vermenigvuldigen de parameter met zichzelf (dat is wat kwadrateren is)
+        // en we slaan het product van die vermenigvuldiging op in een variabele.
         int squared = number * number;
+        // Vervolgens printen we het product uit.
+        // We maken hier een mooi zinnetje door verschillende Strings en variabelen aan elkaar te knopen met +
+        // dit "Strings aan elkaar knopen met +" noemen we concatenation
+
+        // Sidenote: De variabelen number en squared worden hier automatische geinterpreteerd als String, omdat ze in een concatenatie met Strings staan.
+        // String + String = String; -> ("Hallo" + "wereld" = "Hallo wereld")
+        // String + nummer = String; -> ("Chanel nummer " + 5 = "Chanel nummer 5")
+        // nummer + nummer = nummer; -> (5 + 3 = 8)
         System.out.println("Het getal " + number + " is in het kwadraat: " + squared);
     }
 }

@@ -12,11 +12,14 @@ package nl.novi.jp.methods.beginner;
  */
 public class BeginnerThree {
 
+    // De main methode is weer uit de comments gehaald door /* en */  te weg te halen.
     public static void main(String[] args) {
         driveLeft();
         driveRight();
     }
 
+    // Hieronder is de methode "driveRight" gemaakt.
+    // Tussen de accolades {} van de methode, schrijven we wat deze methode doet. In dit geval wordt er "The car turns right" geprint in de console.
     private static void driveRight() {
         System.out.println("The car turns right");
     }
