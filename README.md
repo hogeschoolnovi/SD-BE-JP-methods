@@ -26,3 +26,4 @@ De medior opdrachten introduceren het werken met return-parameters.
 ## Senior opdrachten
 De senior opdrachten zijn de uitdagende opdrachten. Hier worden dingen gebruikt die niet per se in de lessen gebruikt
 worden of in EdHub te vinden zijn. Je dient hier dus op je Google-vaardigheden te vertrouwen.
+
