@@ -7,5 +7,5 @@
 5. Zorg dat je de helloWorld() methode aanroept in main()
 
 ## Hello World
-"Hello world" is sinds oudsher de tekst die iedere programmeer als eerste print wanneer je een nieuwe taal gaat leren.
+"Hello world" is sinds oudsher de tekst die iedere programmeur als eerste print wanneer je een nieuwe taal gaat leren.
 https://nl.wikipedia.org/wiki/Hello_world_(programma) 
