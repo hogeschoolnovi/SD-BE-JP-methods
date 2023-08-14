@@ -21,7 +21,8 @@ public class MediorThree {
     }
 
     public static String firstLetterToUpperCase(String name) {
-
+        // Je hoeft niet te weten wat toLowerCase(), toUpperCase() en substring() doen,
+        // maar het is een goed idee om dit op te zoeken als je toch nieuwsgierig bent.
         String transformedName = name.toLowerCase();
         transformedName = transformedName.substring(0,1).toUpperCase() + transformedName.substring(1);
 
