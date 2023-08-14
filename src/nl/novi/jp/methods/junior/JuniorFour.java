@@ -5,11 +5,16 @@ package nl.novi.jp.methods.junior;
  * Een stuk van de code is uitgecommentarieerd, omdat deze pas gaat werken, wanneer de methode doTransaction afgemaakt
  * is.
  *
- * Maak doTransaction af. Deze moet twee waardes accepteren (welk datatype?). Een waarde is het banksaldo voor de
- * transactie, de andere waarde is de waarde van de transactie.
+ * Maak doTransaction af. Deze moet twee waardes accepteren als input (bepaal zelf welke datatypes daarvoor logisch zijn).
+ * - Één waarde is het banksaldo voor de transactie,
+ * - de andere waarde is de waarde van de transactie.
  *
- * Wanneer de waarde van de transactie negatief is, gaat het om het opnemen (withdraw) van geld. Deze methode dient dan
- * ook aangeroepen te worden. Wanneer deze positief is, gaat het om geld storten (deposit). Dan dient de deposit methode
+ * De andere methodes (main(), deposit() en withdraw()) hoeven niet aangepast te worden.
+ *
+ * Gebruik een if-statement om de logica van de methode op te schrijven:
+ * - Wanneer de waarde van de transactie negatief is, gaat het om het opnemen (withdraw) van geld. Dan dient de withdraw
+ * methode aangeroepen te worden.
+ * - Wanneer de waarde van de transactie positief is, gaat het om geld storten (deposit). Dan dient de deposit methode
  * aangeroepen te worden.
  */
 
