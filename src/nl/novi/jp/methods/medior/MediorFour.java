@@ -5,19 +5,30 @@ import java.util.List;
 
 /**
  * Uitdagend!
- * Gegeven: Een methode die string per character in een List stopt (numberStringToArrayList).
- * Gegeven: Een methode die een getal ontvangt en deze vertaalt naar een String (numberListToStringList).
- * Gegeven: Twee methodes die afgemaakt moeten worden door jou!
  *
- * Deze applicatie heeft als doel om een string van nummer in zijn geheel uit te schrijven:
+ * Deze applicatie heeft als doel om een string van nummers in zijn geheel uit te schrijven:
  * "123" wordt "one-two-three"
  *
- * Twee methodes zijn al gegeven, twee moet je zelf maken en je dient ze vervolgens in de juiste volgorde aan te roepen
- * vanuit de main-methode.
- * Pas numberListToStringList() zo aan dat de getallen uit de list worden omgezet naar text en worden toegevoegd aan:
- * wordNumbers
+ * Twee methodes zijn al gegeven en hoef je niet meer aan te passen.
+ *  - numberStringToArrayList(), neemt een String als input en geeft een List<Integer> (lees: Lijst van Integers) terug als output.
+ *  De methode transformeert een String van numbers, zoals "123" naar een Lijst van Integers, zoals [1,2,3].
+ *  -
  *
- * Pas printNumbers() zo aan dat de List wordt geprint met een "-" tussen de Strings.
+ * Twee methodes moet je zelf maken:
+ *  - Pas numberListToStringList() zo aan dat de getallen uit de input-lijst (numbers) worden omgezet naar text en worden
+ *      toegevoegd aan wordNumbers met de methode "wordnumbers.add(X)" (waar "X" de string is die je wil toevoegen aan de lijst).
+ *      Deze methode heeft een for-loop nodig.
+ *  - Pas printNumbers() zo aan dat de input-List (numberWords) wordt geprint met een "-" tussen de Strings.
+ *      Maak eerst een lege basis-String.
+ *      Gebruik daarna een for-loop om elk woord met een "-" toe te voegen aan de basis string
+ *      Print uiteindelijk de basis-String.
+ *  - Vervolgens kun je deze 2 methodes in de juiste volgorde aanroepen vanuit de main-methode
+ *
+ *
+ *  Opmerking:
+ *      Een List<Integer> of List<String> is niet veel anders dan een Array, zoals Integer[] of String[].
+ *      Er zijn wel een antal cruciale verschillen, maar dit gaan we in een latere les nog uitgebreid behandelen.
+ *
  */
 
 public class MediorFour {
@@ -72,7 +83,7 @@ public class MediorFour {
     }
 
     //TODO Maak deze methode af.
-    public static void printNumbers() {
+    public static void printNumbers(List<String> numberWords) {
 
     }
 
